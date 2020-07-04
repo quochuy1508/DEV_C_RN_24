@@ -2,7 +2,7 @@ let button = document.getElementById("guessButton");
 let message = document.getElementById("message");
 let lastAssign = document.getElementById("lastAssign");
 
-let random = Math.round(Math.random() * 100);
+const random = Math.round(Math.random() * 100);
 let lastGuest = [];
 
 console.log(random);
